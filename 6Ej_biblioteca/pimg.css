@@ -1,0 +1,38 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav{
+
+}
+
+header h1{
+    text-align: center;
+}
+
+.padre{
+    display: flex;
+    height: 500px;
+    align-items: center;
+    align-content:space-between;
+    background-color: white
+}
+
+.box{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+img{
+    width: 50%;
+    height:auto;
+    filter: saturate(0);
+}
+
+img:hover {
+    filter: saturate(1);
+}
+
+footer{
+
+}

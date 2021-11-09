@@ -3,32 +3,28 @@ body {
     background-color: white;
 }
 
-img {
-   width: 100%;
-   height: auto;
-   opacity: 0.4; 
+header {
+    width: 57,5vw;
+    height: 20vw;
+    background-image: url(img/nIke-logo.jpg);
+    background-size: contain;
+    padding: 20vw;
 }
 
-.topright{
-    position:absolute;
-    top: 8px;
-    right: 16px;
-    font-size: 18px;
-}
-
-.cabecera {
-    padding-top: 50px;
-    padding-left: 100px;
-    margin: 0px;
-    text-decoration: none;
-}
-
-div.topright{
+div.sticky{
     position: -webkit-sticky;
     position: sticky;
     top: 0;
     padding: 5px;
-    border: 2px solid #4caf4c
+    
+    width: 57,5vw;
+    height: 5vw;
+}
+
+.cabecera {
+    margin: 0px;
+    background-image: url(img/nIke-logo.jpg);
+    text-decoration: none;
 }
 
 .cabecera li {
@@ -46,6 +42,8 @@ div.topright{
 article {
     height: 30vw;
     padding: 15vw;
+    padding-top: 50px;
+    padding-left: 100px;
 }
 
 h1 {
@@ -91,7 +89,7 @@ footer{
 .abajo li{
     color: orange;
     padding: 10px;
-    font-size: 15px;
+    font-size: 22px;
 }
 
 

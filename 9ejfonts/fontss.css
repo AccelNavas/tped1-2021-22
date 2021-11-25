@@ -35,7 +35,7 @@ h1{
 
 div{
     display: flex;
-    flex-wrap: wrap-reverse;
+    flex-wrap: wrap;
 }
 
 section{

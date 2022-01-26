@@ -1,0 +1,254 @@
+@media (min-width: 768px) { 
+            
+}
+
+body{
+    background-color: rgb(247, 247, 247);
+}
+
+/* CSS IMPORTANTE para que el carrusel se pueda acoplar en toda la pantalla */
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+  }
+
+ 
+h3 {
+      color: rgb(0, 0, 146);
+  }
+
+  #tituloUno{
+      padding-top: 4vh;
+      padding-bottom: 7vh;
+  }
+
+  @media screen and (max-width: 768px){ 
+    #tituloUno{
+        padding-top: 0vh;
+        padding-bottom: 3vh;
+    }
+  }
+
+  #projectUno{
+      
+  }
+
+  #projectDos{
+  }
+  #projectTres{
+      padding-top: 3vh;
+  }
+  @media screen and (max-width: 479px){ 
+    #projectTres{
+        padding-top: 0;
+    }
+  }
+  @media screen and (max-width: 768px){ 
+    #projectTres{
+        padding-top: 0;
+    }
+  }
+
+  #espacioCero{
+      height: 5vh;
+  }
+  #espacioUno{
+      height: 11vh;
+  }
+
+  @media screen and (max-width: 479px){ 
+    #espacioUno{
+        height: 4vh;
+    }
+  }
+  @media screen and (max-width: 768px){ 
+    #espacioUno{
+        height: 5vh;
+    }
+  }
+
+  #espacioDos{
+      height: 15vh;
+  }
+  
+  @media screen and (max-width: 768px){ 
+    #espacioDos{
+        height: 5vh;
+    }
+  }
+
+
+  #espacioTres{
+      height: 3vh;
+  }
+  #espacioCuatro{
+      height: 10vh;
+  }
+
+  @media screen and (max-width: 768px){ 
+    #espacioCuatro{
+        height: 5vh;
+    }
+  }
+
+
+  /* ESTE ES EL FONDO */
+  #fondoUno{
+     /* background-image: url(img/fondoUno.jpg); 
+      background-size: contain;  */ 
+  }
+
+  #cartelUno{
+}
+
+
+
+#textoUno{
+    padding-top: 10rem;
+    padding-left: 11rem;
+    padding-right: 10rem;
+}
+
+#descrip{
+    font-size: 18px;
+    color: rgb(0, 0, 12)
+}
+
+#titulpro{
+    font-size: 35px;
+    color: rgb(0, 0, 146)
+}
+
+@media screen and (max-width: 768px){ 
+    #textoUno{
+        padding-top: 0;
+        padding-left: 1.5rem;
+        padding-right: 8rem;
+    }
+    
+    #descrip{
+        font-size: 25px;
+    }
+    
+    #titulpro{
+        font-size: 40px;
+        padding-right: 0;
+    }
+  }
+
+@media screen and (max-width: 479px){ 
+    #textoUno{
+        padding-top: 0;
+        padding-left: 1.5rem;
+        padding-right: 3rem;
+    }
+    
+    #descrip{
+        font-size: 15px;
+    }
+    
+    #titulpro{
+        font-size: 25px;
+    }
+  }
+
+
+
+  #folletoDos{
+  }
+
+  /* FALTA POR SEGUIR EDITANDO */
+
+  #textoDos{
+    padding-top: 7rem;
+    padding-left: 9rem;
+    padding-right: 10rem;
+  }
+
+  #descripDos{
+    font-size: 18px;
+    color: rgb(0, 0, 12)
+}
+
+#titulproDos{
+    font-size: 35px;
+    color: rgb(0, 0, 146)
+}
+
+
+@media screen and (max-width: 768px){ 
+    #textoDos{
+        padding-top: 0;
+        padding-left: 1.5rem;
+        padding-right: 8rem;
+      }
+    
+      #descripDos{
+        font-size: 25px;
+        color: rgb(0, 0, 12)
+    }
+    
+    #titulproDos{
+        font-size: 40px;
+        color: rgb(0, 0, 146)
+    }
+  }
+
+  @media screen and (max-width: 479px){ 
+    #textoDos{
+        padding-top: 0;
+        padding-left: 1.5rem;
+        padding-right: 3rem;
+      }
+    
+      #descripDos{
+        font-size: 15px;
+        color: rgb(0, 0, 12)
+    }
+    
+    #titulproDos{
+        font-size: 25px;
+        color: rgb(0, 0, 146)
+    }
+  }
+
+  /* FOOTER AQUÍ IRÁ EL FORMULARIO Y LA INFO DE CONTACTO */
+
+#formulario{
+    font-size: 30px;
+    color: rgb(0, 0, 146);
+    padding-bottom: 1.5rem;
+}
+
+#form{
+    padding-top: 3rem;
+    padding-right: 15rem;
+    padding-left: 15rem;
+}
+
+@media screen and (max-width: 768px){ 
+    #form{
+        padding-top: 1rem;
+        padding-right: 2rem;
+        padding-left: 2rem;
+    }
+  }
+
+
+
+  p , h3, h4 {
+    animation-duration: 3s;
+    animation-name: slidein;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
